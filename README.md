@@ -66,6 +66,7 @@ Pour évaluer un plateau, l'heuristique combine :
 - **La stabilité** : les pions qui ne pourront plus être retournés
 
 > 💡 Petit détail : en fin de partie (profondeur 8), l'IA peut prendre un peu plus de temps à jouer. C'est normal, elle calcule !
+> 🧠 Amélioration possible : reproduire le même design que celui du plateau
 
 ## 🛠️ Technologies
 
