@@ -2,7 +2,7 @@
 
 **Affrontez une intelligence artificielle à Othello, directement dans votre terminal.**
 
-Un jeu d'Othello (Reversi) 100 % Python, jouable contre une IA qui réfléchit plusieurs coups à l'avance, adapte sa stratégie selon l'avancement de la partie… et ne vous fera pas de cadeau. 😈
+Un jeu d'Othello en Python, jouable contre une IA qui réfléchit plusieurs coups à l'avance, adapte sa stratégie selon l'avancement de la partie… et ne vous fera pas de cadeau. 😈
 
 ---
 
