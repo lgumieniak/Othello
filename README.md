@@ -69,8 +69,9 @@ Pour évaluer un plateau, l'heuristique combine :
 
 ## 🛠️ Technologies
 
-- Python 3
-- Jupyter Notebook
+- Python 3, Jupyter Notebook
+- Minimax, élagage alpha-bêta
+- colorama, math, time, sys
 
 ---
 
