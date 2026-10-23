@@ -35,7 +35,7 @@ Les coups se saisissent sous la forme **ligne + colonne** : `3C`, `6E`, `4D`…
 8 |   |   |   |   |   |   |   |   |
 ```
 
-Les `+` (affichés en rouge) indiquent les coups que vous pouvez jouer. Le but : avoir **le plus de pions** à la fin de la partie.
+Les `+` (affichés en noir ici) indiquent les coups que vous pouvez jouer. Le but : avoir **le plus de pions** à la fin de la partie.
 
 ## 🤖 Sous le capot : comment réfléchit l'IA
 
@@ -51,11 +51,11 @@ Sa profondeur de recherche évolue au fil de la partie :
 
 🎯 Pourquoi une profondeur évolutive ?
 
-L'objectif : allier performance de jeu et temps de calcul maîtrisé. Une profondeur fixe serait soit trop lente, soit trop faible. L'IA investit donc son calcul là où il compte vraiment :
+L'objectif : **allier performance de jeu et temps de calcul maîtrisé**. Une profondeur fixe serait soit trop lente, soit trop faible. L'IA investit donc son calcul là où il compte vraiment :
 
-Ouverture (profondeur 2) : le nombre de coups possibles est énorme, chercher plus loin ferait exploser le temps de calcul pour un gain minime, car rien de décisif ne se joue encore.
-Milieu de partie (profondeur 4) : le champ des possibles se réduit, et c'est ici que la stratégie se met en place et que les écarts se créent. On augmente donc la profondeur.
-Fin de partie (profondeur 8) : il reste peu de coups, on peut se permettre une recherche maximale pour trouver le meilleur coup possible et finir avec le plus de pions.
+- **Ouverture (profondeur 2)** : le nombre de coups possibles est énorme, chercher plus loin ferait exploser le temps de calcul pour un gain minime, car rien de décisif ne se joue encore.
+- **Milieu de partie (profondeur 4)** : le champ des possibles se réduit, et c'est ici que la stratégie se met en place et que les écarts se créent. On augmente donc la profondeur.
+- **Fin de partie (profondeur 8)** : il reste peu de coups, on peut se permettre une recherche maximale pour trouver le meilleur coup possible et finir avec le plus de pions.
 
 **Cette spécificité a été déterminante : grâce à elle, notre IA a battu celles de tous les autres binômes de la promo lors d'un tournoi, ce qui a valu au projet la note de 20/20 et la place de major de promo du module Data Science & IA.** 🏅
 
