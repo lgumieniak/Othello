@@ -35,7 +35,7 @@ Les coups se saisissent sous la forme **ligne + colonne** : `3C`, `6E`, `4D`…
 8 |   |   |   |   |   |   |   |   |
 ```
 
-Les `+` (affichés en noir ici) indiquent les coups que vous pouvez jouer. Le but : avoir **le plus de pions** à la fin de la partie.
+Les `+` (affichés en noir ici) indiquent les coups que vous pouvez jouer. Pour poser un pion, vous devez **encadrer un ou plusieurs pions adverses entre votre nouveau pion et un pion de votre couleur**, horizontalement, verticalement ou en diagonale. Les pions adverses ainsi encadrés changent de couleur et deviennent les vôtres. Le but : avoir **le plus de pions** à la fin de la partie.
 
 ## 🤖 Sous le capot : comment réfléchit l'IA
 
